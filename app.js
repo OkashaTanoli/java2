@@ -792,6 +792,86 @@
 
 
 
+                        // Chapter # 35 to 38 functions. 11 1st Way
+
+// var str = "Okasha Ali Zain OkashaTanoli";
+// var arrstr = str.split(" ");
+// var find = arrstr.sort((strA,strB) =>{ return strB.length - strA.length});
+
+// console.log(find[0])
+
+
+                        // Chapter # 35 to 38 functions. 11 2nd Way
+
+// var str = "Okasha Ali Zain OkashaTanoli";
+// var arrstr = str.split(" ");
+// var form = arrstr.reduce((first ,second) => {return first.length > second.length ? first : second})
+// console.log(form)
+
+
+
+
+
+
+
+                        // Chapter # 35 to 38 functions. 12
+
+// const toCapital = str => {
+// const grape = str.split(" ")
+//  return  grape.map(grape => grape[0].toUpperCase() + grape.slice(1).toLowerCase()).join(" ");
+// }
+// alert(toCapital("okasha ali zain okashaTanoli"));
+
+
+
+
+
+
+
+
+                        // Chapter # 35 to 38 functions. 13
+
+// function identifier(string,letter){
+//         var c = 0
+//            for(var i = 0; i < string.length; i++){
+//                    if(string[i] === letter){
+//                         c = c + 1
+//                    }
+//            }
+//            return c
+// }
+// var s = prompt("Enter string");
+// var p = prompt("Enter word which is to be count")
+// console.log(identifier(s,p))
+
+
+
+
+
+
+
+
+                        // Chapter # 35 to 38 functions. 14
+
+// function calcCircumference(radius){
+//         var circum = 2*3.142*radius;
+//         return alert("The Circumference is :" + " " + circum)
+// }
+// calcCircumference(2);
+
+
+
+// function calcArea(radius){
+//         var area = 3.142 * ( radius*radius);
+//         return alert("The calcArea is :" + " " + area)
+// }
+// calcArea(3)
+
+
+
+
+
+
 
 
 
